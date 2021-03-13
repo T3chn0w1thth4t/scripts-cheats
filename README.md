@@ -1,0 +1,2 @@
+# Krunker-cheats
+lol
