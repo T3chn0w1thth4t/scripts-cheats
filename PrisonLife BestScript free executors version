@@ -3001,3 +3001,5 @@ function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
 	Full credit to the original script makers
 	Website: http://rbxcheats.com/
 ]]
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
