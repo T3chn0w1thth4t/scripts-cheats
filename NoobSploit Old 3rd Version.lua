@@ -1437,6 +1437,15 @@ game:GetService'Players':Chat(("m ATTACK MY ARMY"))
 game:GetService'Players':Chat(("h Baymax is taking over"))
 end
 
+if msg == ".padanticrash" or msg == ".Padanticrash" then
+game:GetService'Players':Chat((".trap others"))
+game:GetService'Players':Chat((".allpads"))
+game:GetService'Players':Chat((".moveresetpad"))
+game:GetService'Players':Chat(("."))
+wait(1.5)
+game:GetService'Players':Chat(("respawn others"))
+end
+		
 if msg == ".mrbluesky" or msg == ".Mrbluesky" then
 game:GetService'Players':Chat(("ambient 0 0 256"))
 game:GetService'Players':Chat(("colorshifttop 0 0 256"))
