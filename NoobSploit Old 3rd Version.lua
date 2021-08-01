@@ -3,7 +3,7 @@
 -- Shoutout To Neocuts And Shortcut For Being The Base For This.
 
 local AllowMessages = true -- This cant be toggled when injected!
-local AllowTeleportsToShortcutHub = false -- Disabling this will stop all shortcut game teleports
+local AllowTeleportsToShortcutHub = false -- Disabling this will stop all sc game teleports
 
 -- plz no abuse to much.
 
