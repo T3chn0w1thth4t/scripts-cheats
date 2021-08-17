@@ -1273,7 +1273,25 @@ wait(201)
 game:GetService'Players':Chat(("music 411946428"))
 game:GetService'Players':Chat(("h Now Playing: Cursed Abbey by Gravity|Time: 120|"))
 end
-
+		
+if msg == ".slidefloor" or msg == "superslide" then
+game:GetService'Players':Chat((".trap others"))
+game:GetService'Players':Chat(("gear me 00000000119917513"))
+game:GetService'Players':Chat(("pm me get into the treehouse"))
+game:GetService'Players':Chat(("gear me 000000000000000000000000000000000000000000000000000000000000000000000000000000110789105"))
+wait(2.9)
+game:GetService'Players':Chat((".sm use the table inside there"))
+end
+		
+if msg == ".tictactoe" or msg == ".TTT" then
+game:GetService'Players':Chat((".trap me"))
+game:GetService'Players':Chat(("gear me 16924676"))
+game:GetService'Players':Chat(("tp all me"))
+game:GetService'Players':Chat((".clearlogs"))
+wait(69.1)
+game:GetService'Players':Chat((".sm i am cool you are not nanananana"))
+end
+		
 if msg == "Noob" or msg == "noob" then
 game:GetService'Players':Chat(("char all 125329"))
 game:GetService'Players':Chat(("name all Newbie"))
