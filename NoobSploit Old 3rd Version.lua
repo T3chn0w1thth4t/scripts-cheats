@@ -3161,6 +3161,7 @@ elseif string.sub(msg:lower(), 0, 7) == prefix.."set jp" then
 		game.Players:Chat("size "..player.." 0000000000000000005")
 		game.Players:Chat("speed "..player.." 00000000000000000024")
 		game.Players:Chat("pants "..player.." 0000000000000000001187508947")
+		game.Players:Chat("god me")
 	elseif string.sub(msg:lower(), 0, 7) == prefix.."ohnana" then
 		game.Players:Chat("time 0000000000000000000")
 		game.Players:Chat("fogend 000000000000000000250")
@@ -3176,9 +3177,9 @@ elseif string.sub(msg:lower(), 0, 7) == prefix.."set jp" then
 		local Sound = game:GetService("Workspace").Terrain["_Game"].Folder.Sound
 		Sound.Volume = newVolume
 	elseif string.sub(msg:lower(), 0, 9) == prefix.."gearban" then
-		game.Players:Chat("gear me 00000000000000000082357101")
+		game.Players:Chat("pm me sorry but you need shortcut or shortlist from T3chn0#0253")
 		wait(0.50)
-		game.Players:Chat(prefix.."alltools")
+		game.Players:Chat(".sm stop using cancerous gears or else")
 		wait(0.50)
 		names = game.Players:GetChildren()
 		local name = string.sub(msg:lower(), 11)
