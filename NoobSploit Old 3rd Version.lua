@@ -3214,6 +3214,22 @@ elseif string.sub(msg:lower(), 0, 7) == prefix.."set jp" then
 				game.Players:Chat("reset "..v.Name)
 			end
 		end
+
+if string.sub(msg:lower(), 0, 10) == prefix.."retexture" then
+		game.Players:Chat("gear me 00000000000000000059190534")
+		game.Players:Chat("gear me 00000000000000000059190534")
+		game.Players:Chat("pm me feel free to type .color all original after this")
+		wait(1)
+		for i,v in pairs(game.Players.LocalPlayer.Backpack:GetDescendants()) do
+			if v:IsA'Tool' then
+				game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+				wait(0.50)
+				sendKeyPress("StatueStaffOfStonyJustice", true, "x") -- tell the server to press X
+				wait(0.25)
+			end
+		end
+	end
+
 	elseif string.sub(msg:lower(), 0, 19) == prefix.."toggle anticrashvg" then
 		anticrashVG = not anticrashVG
 		logn("anticrashVG is now set to "..tostring(anticrashVG))
