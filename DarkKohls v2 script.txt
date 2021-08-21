@@ -1,6 +1,6 @@
 -- DarkKohls v2 Very overpowered
 -- Hope You Enjoy The Script!
--- DarkKohls ontop
+-- DarkKohls completely remastered
 
 local AllowMessages = true -- This cant be toggled when injected!
 local AllowTeleportsToShortcutHub = false -- Disabling this will stop all shortcut game teleports
@@ -2859,7 +2859,7 @@ Spawn(function()
 			for i,pad in pairs(Admin_Folder.Pads:GetDescendants()) do
 				if pad.Name == player.."'s admin" then
 					game.Players:Chat("respawn "..player)
-					game.Players:Chat(".sm pads reset because a padbanned player tried to get admin")
+					game.Players:Chat(".sm pads reset because a pad b4nn3d player tried to get admin")
 					regen()
 				end
 			end
