@@ -12,6 +12,7 @@ function startupScripts() -- Everything in here will be ran LAST!(Great for your
     wait(2.67)
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("")
 	game.Players:Chat(".perm")
+	game.Players:Chat(".pads")
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Kohls%20Admin%20House/DarkKohls/GUI.lua"))()
 end
 
@@ -210,8 +211,8 @@ end)
 Players.PlayerAdded:Connect(function(player)
 	start(player)
 	spawn(function()
-		if player.Name == "GOJIRA_from1954" then
-			say(".ts (GOJIRA_from1954)")
+		if player.Name == "SET YOUR OWN CUSTOM USERNAME" then
+			say("Hey man I'm glad you joined :D")
 		end
 	end)
 end)
@@ -1925,7 +1926,7 @@ Players.LocalPlayer.Chatted:Connect(function(msg)
 		local player = string.sub(msg:lower(), 9)
 		game.Players:Chat("gear "..player.." 00000000000000000000016200204")
 		game.Players:Chat("gear "..player.." 00000000000000000000016200402")
-		game.Players:Chat("gear "..player.." 00000000000000000000016969792")
+		game.Players:Chat("gear "..player.." 00000000000000000000094794847")
 		game.Players:Chat("gear "..player.." 00000000000000000000073089190")
 		game.Players:Chat("gear "..player.." 00000000000000000000021001552")
 	end
@@ -2722,7 +2723,7 @@ function start(plr)
 					game.Players:Chat("ff No antilogs for you!")
 				else
 					for i = 1,100 do
-						game.Players:Chat(".sm [DarkKohls] no no logs")
+						game.Players:Chat(".sm dark k0hls no no logs")
 					end
 				end
 			end
@@ -4286,7 +4287,7 @@ Spawn(function()
 	mods()
 end)
 wait(2.67)
-logn("DarkKohls v2 Loaded")
+logn("DarkKohls v2 Loaded waiting for GUI")
 
 wait(0.25)
 
