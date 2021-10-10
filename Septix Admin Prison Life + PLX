@@ -1,2 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/M4lw4reT3sts/scripts-cheats/main/Prison Breaker X prisonlife",true))()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+wait(11.9)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/M4lw4reT3sts/scripts-cheats/main/Prison Breaker X prisonlife",true))()
+
