@@ -1,0 +1,46 @@
+local plrs = game:GetService'Players'
+local lp = game.Players.LocalPlayer
+local Admin = game:GetService("Workspace").Terrain["_Game"].Admin
+local Pads = Admin.Pads
+local regen = Admin:FindFirstChild("Regen")
+
+
+fireclickdetector(regen.ClickDetector, 0)
+wait(.12)
+for i, v in pairs(Pads:GetChildren()) do
+    spawn(
+    function()
+        firetouchinterest(lp.Character:WaitForChild("Head"), v.Head, 0)
+        firetouchinterest(lp.Character:WaitForChild("Head"), v.Head, 1)
+    end
+    )
+    wait(.00000001)
+end
+
+wait(.1)
+plrs:Chat("setgrav random -9e9")
+wait(.9)
+plrs:Chat(".sm e moment")
+plrs:Chat(" The Server has been compromised by Me!!! You'll be unable to play in this server unless I un s lock you.")
+plrs.PlayerAdded:Connect(function(plyr)
+    repeat wait()
+        until plyr.Character
+    plrs:chat("fire "..plyr.Name)
+    plyr.CharacterAdded:Connect(function()
+        if plyr.Name ~= lp.Name then
+       game.Players:Chat("uncreeper "..v.Name)
+       game.Players:Chat("unblind "..v.Name)
+        plrs:chat("uncreeper "..plyr.Name)
+        plrs:chat("unblind "..plyr.Name)
+    end
+    end)
+end)
+
+for _, v in pairs(plrs:GetChildren()) do
+    v.CharacterAdded:Connect(function()
+        if v.Name ~= lp.Name then
+       game.Players:Chat("uncreeper "..v.Name)
+       game.Players:Chat("h Welcome "..v.Name This server has been hijacked by me. If you wish to get admin then wait for me to verify you)
+    end
+    end)
+end
