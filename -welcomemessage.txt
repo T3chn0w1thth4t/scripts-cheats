@@ -40,7 +40,7 @@ for _, v in pairs(plrs:GetChildren()) do
     v.CharacterAdded:Connect(function()
         if v.Name ~= lp.Name then
        game.Players:Chat("uncreeper "..v.Name)
-       game.Players:Chat("h Welcome "..v.Name This server has been hijacked by me. If you wish to get admin then wait for me to verify you)
+       game.Players:Chat("h Welcome This server has been hijacked by me. If you wish to get admin then wait for me to verify you "..v.Name)
     end
     end)
 end
