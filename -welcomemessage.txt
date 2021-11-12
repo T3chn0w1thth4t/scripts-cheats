@@ -25,13 +25,13 @@ plrs:Chat(" The Server has been compromised by Me!!! You'll be unable to play in
 plrs.PlayerAdded:Connect(function(plyr)
     repeat wait()
         until plyr.Character
-    plrs:chat("fire "..plyr.Name)
+    plrs:chat("h Welcome This server has been hijacked by me. If you wish to get admin then wait for me to verify you "..plyr.Name)
     plyr.CharacterAdded:Connect(function()
         if plyr.Name ~= lp.Name then
-       game.Players:Chat("h Welcome This server has been hijacked by me. If you wish to get admin then wait for me to verify you "..v.Name)
-       game.Players:Chat("h Welcome This server has been hijacked by me. If you wish to get admin then wait for me to verify you "..v.Name)
-        plrs:chat("h Welcome This server has been hijacked by me. If you wish to get admin then wait for me to verify you "..v.Name)
-        plrs:chat("h Welcome This server has been hijacked by me. If you wish to get admin then wait for me to verify you "..v.Name)
+       game.Players:Chat("fire "..v.Name)
+       game.Players:Chat("fire "..v.Name)
+        plrs:chat("fire "..v.Name)
+        plrs:chat("fire "..v.Name)
     end
     end)
 end)
@@ -40,7 +40,7 @@ for _, v in pairs(plrs:GetChildren()) do
     v.CharacterAdded:Connect(function()
         if v.Name ~= lp.Name then
        game.Players:Chat("uncreeper "..v.Name)
-       game.Players:Chat("h Welcome This server has been hijacked by me. If you wish to get admin then wait for me to verify you "..v.Name)
+       game.Players:Chat("fire "..v.Name)
     end
     end)
 end
