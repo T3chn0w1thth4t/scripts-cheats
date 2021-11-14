@@ -20,7 +20,7 @@ end
 wait(.1)
 plrs:Chat("setgrav random -9e9")
 wait(.9)
-plrs:Chat(".sm autoadminall enabled")
+plrs:Chat(".sm auto admin all enabled")
 plrs:Chat(" hi guys.")
 plrs.PlayerAdded:Connect(function(plyr)
     repeat wait()
