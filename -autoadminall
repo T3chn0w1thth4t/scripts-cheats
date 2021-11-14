@@ -26,6 +26,7 @@ plrs.PlayerAdded:Connect(function(plyr)
     repeat wait()
         until plyr.Character
     plrs:chat(".admin "..plyr.Name)
+    plrs:chat("h You have admin! No pads needed "..plyr.Name)
     plyr.CharacterAdded:Connect(function()
         if plyr.Name ~= lp.Name then
        game.Players:Chat("trip "..v.Name)
