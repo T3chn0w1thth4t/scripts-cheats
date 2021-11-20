@@ -18,18 +18,25 @@ for i, v in pairs(Pads:GetChildren()) do
 end
 
 wait(.1)
-plrs:Chat("ff Someone will be the boss prepair for an epic battle")
+plrs:Chat(".btrape")
 wait(.9)
-plrs:Chat("oo yeah")
+plrs:Chat("ff epick fite going on")
+plrs:Chat(" hi guys.")
 plrs.PlayerAdded:Connect(function(plyr)
     repeat wait()
         until plyr.Character
+    plrs:chat(".spam trip "..plyr.Name)
+    wait(1)
+    plrs:chat(".stop "..plyr.Name)
+    wait(1)
+    plrs:chat("h You joined an epic battle "..plyr.Name)
+    plrs:chat("sword "..plyr.Name)
     plyr.CharacterAdded:Connect(function()
         if plyr.Name ~= lp.Name then
-       game.Players:Chat("sword "..v.Name)
-       game.Players:Chat("sword "..v.Name)
-        plrs:chat("sword "..v.Name)
-        plrs:chat("sword "..v.Name)
+       game.Players:Chat("trip "..v.Name)
+       game.Players:Chat("trip "..v.Name)
+        plrs:chat("trip "..v.Name)
+        plrs:chat("trip "..v.Name)
     end
     end)
 end)
