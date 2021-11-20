@@ -24,7 +24,6 @@ plrs:Chat("oo yeah")
 plrs.PlayerAdded:Connect(function(plyr)
     repeat wait()
         until plyr.Character
-    plrs:chat("sword "..v.Name")
     plyr.CharacterAdded:Connect(function()
         if plyr.Name ~= lp.Name then
        game.Players:Chat("sword "..v.Name)
