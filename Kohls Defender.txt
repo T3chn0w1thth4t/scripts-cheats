@@ -1,0 +1,37 @@
+local plrs = game:GetService'Players'
+local lp = game.Players.LocalPlayer
+local Admin = game:GetService("Workspace").Terrain["_Game"].Admin
+local Pads = Admin.Pads
+local regen = Admin:FindFirstChild("Regen")
+
+
+fireclickdetector(regen.ClickDetector, 0)
+wait(.12)
+for i, v in pairs(Pads:GetChildren()) do
+    spawn(
+    function()
+        firetouchinterest(lp.Character:WaitForChild("Head"), v.Head, 0)
+        firetouchinterest(lp.Character:WaitForChild("Head"), v.Head, 1)
+    end
+    )
+    wait(.00000001)
+end
+
+wait(.1)
+plrs:Chat("trip random")
+wait(.9)
+plrs:Chat(".sm firewall enabled.")
+plrs:Chat(" hi guys.")
+plrs.PlayerAdded:Connect(function(plyr)
+if plyr.AccountAge < 21 then
+    repeat wait()
+        until plyr.Character
+    plrs:chat(".sm kohlS defender firewall detected a new accoUnt very Sus "..plyr.Name)
+    wait(.75)
+    plrs:chat("punish "..plyr.Name)
+    wait(.5)
+    plrs:chat("blind "..plyr.Name)
+    wait(9.11)
+    plrs:chat(".plrslock "..plyr.Name)
+    end
+    end)
