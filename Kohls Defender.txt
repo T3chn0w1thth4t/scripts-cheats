@@ -17,11 +17,8 @@ for i, v in pairs(Pads:GetChildren()) do
     wait(.00000001)
 end
 
-wait(.1)
-plrs:Chat("trip random")
 wait(.9)
 plrs:Chat(".sm firewall enabled.")
-plrs:Chat(" hi guys.")
 plrs.PlayerAdded:Connect(function(plyr)
 if plyr.AccountAge < 21 then
     repeat wait()
