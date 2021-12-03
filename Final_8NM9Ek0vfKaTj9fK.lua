@@ -1,4 +1,4 @@
---// This script was obfuscated with Custom Lua Encryption Version v2.5-beta by 1store
+--// This script was obfuscated with PSU used to be good and Luraph is gay
 
 local llIIlIlIIllllIlIlIlIIlIlIlIllllIllI = {'\27','\76','\117','\97','\81','\0','\1','\4','\8','\4','\8','\0','\7','\0',
 '\0','\0','\0','\0','\0','\0','\60','\101','\118','\97','\108','\62','\0','\3','\0','\0','\0','\7','\0','\0','\0','\0','\0',
