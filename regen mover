@@ -3,5 +3,5 @@ game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.B
 game.Players:Chat("god ")
 game.Players:Chat("tp")
 game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
-wait(12.9)
+wait(16.9)
 game.Players:Chat("-reegeennbypass")
