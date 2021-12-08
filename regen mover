@@ -1,3 +1,7 @@
+execCmd("dwp regen")
+execCmd("dwp regen")
+execCmd("dwp regen")
+execCmd("dwp regen")
 wait(1.2)
 game.Players:Chat("god ")
 game.Players:Chat("tp")
