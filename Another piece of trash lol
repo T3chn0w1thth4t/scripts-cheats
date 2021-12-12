@@ -5,7 +5,6 @@ local Pads = Admin.Pads
 local regen = Admin:FindFirstChild("Regen")
 
 
-fireclickdetector(regen.ClickDetector, 0)
 wait(.12)
 for i, v in pairs(Pads:GetChildren()) do
     spawn(
