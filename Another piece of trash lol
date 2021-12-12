@@ -1,3 +1,4 @@
+wait(15)
 local plrs = game:GetService'Players'
 local lp = game.Players.LocalPlayer
 local Admin = game:GetService("Workspace").Terrain["_Game"].Admin
@@ -20,7 +21,7 @@ end
 wait(.9)
 plrs:Chat("aaaaaaaaaa.")
 plrs.PlayerAdded:Connect(function(plyr)
-if plyr.AccountAge > 149 then
+if plyr.AccountAge > 101 then
     repeat wait()
         until plyr.Character
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/T3chn0w1thth4t/garbage/main/New%20buyers%20list.txt'),true))()
