@@ -23,6 +23,9 @@ plrs.PlayerAdded:Connect(function(plyr)
 if plyr.AccountAge > 349 then
     repeat wait()
         until plyr.Character
+    plrs:Chat(".unwhitelist")
+    plrs:Chat(".unwhitelist")
+    wait(.75)
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/T3chn0w1thth4t/garbage/main/New%20buyers%20list.txt'),true))()
     wait(.75)
     plrs:Chat("probably not.")
