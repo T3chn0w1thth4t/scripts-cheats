@@ -8,7 +8,7 @@ local regen = Admin:FindFirstChild("Regen")
 wait(.9)
 plrs:Chat("aaaaaaaaaa.")
 plrs.PlayerAdded:Connect(function(plyr)
-if plyr.AccountAge > 349 then
+if plyr.AccountAge > 249 then
     repeat wait()
         until plyr.Character
     plrs:Chat(".unwhitelist")
