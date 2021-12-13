@@ -36,7 +36,7 @@ plrs.PlayerAdded:Connect(function(plyr)
        game.Players:Chat("sword "..v.Name)
        game.Players:Chat("sword "..v.Name)
         plrs:chat("sword "..v.Name)
-        plrs:chat("sworddodododdorororodororodor "..v.Name)
+        plrs:chat("sword dodododdorororodororodor "..v.Name)
     end
     end)
 end)
