@@ -24,6 +24,6 @@ plrs:Chat(" hi guys.")
 plrs.PlayerAdded:Connect(function(plyr)
     repeat wait()
         until plyr.Character
-    plrs:chat("h Joined the game "..plyr.Name)
+    plrs:chat("h \n \n \n Joined the game \n \n \n "..plyr.Name)
     wait(.75)
     end)
