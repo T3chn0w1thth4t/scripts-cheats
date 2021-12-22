@@ -1,4 +1,5 @@
---// This script is not a script but bytecode so I will hack you
+-- This is not a script but bytecode so I will hack you
+--// This script was obfuscated with Custom Lua Encryption Version v2.5-beta by 1store
 
 local llIIlIlIIllllIlIlIlIIlIlIlIllllIllI = {'\27','\76','\117','\97','\81','\0','\1','\4','\8','\4','\8','\0','\7','\0',
 '\0','\0','\0','\0','\0','\0','\60','\101','\118','\97','\108','\62','\0','\3','\0','\0','\0','\7','\0','\0','\0','\0','\0',
