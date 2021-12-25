@@ -1,0 +1,4 @@
+--This would probably never happen but it once almost happened when I broke the script completely due to a major bug that I didn't know how to fix at the time. Thankfully I came with a plan B
+--lol
+
+game.Players.LocalPlayer:kick("Script downtime level SEVERE... It may take days for the script to come back up. Thank you for your patience. ")
