@@ -28,7 +28,9 @@ if plyr.AccountAge < 21 then
     plrs:chat("punish "..plyr.Name)
     wait(.5)
     plrs:chat("blind "..plyr.Name)
-    wait(9.11)
+    plrs:chat(".unadmin "..plyr.Name)
+    plrs:chat(".unadmin"..plyr.Name)
+    wait(4.91)
     plrs:chat(".plrslock "..plyr.Name)
     end
     end)
