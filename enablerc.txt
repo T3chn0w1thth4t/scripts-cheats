@@ -1,4 +1,3 @@
-elseif string.sub(msg:lower(), 0, 9) == prefix.."enablerc" then
 task.spawn(function()
     local lp = game.Players.LocalPlayer
     local ui = game:GetService("UserInputService")
