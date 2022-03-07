@@ -1,0 +1,12 @@
+--Method 1 Recommended. Most secure. This should keep you hidden from ALL execution logs. Only it cuts some performance
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/T3chn0w1thth4t/scripts-cheats/main/Execlogs%20spoofer.lua'),true))()
+
+--Method 2 Disguise method using Synapse as its function (you should still be fully spoofed as the player itself = nil)
+--loadstring(game:HttpGet(('https://raw.githubusercontent.com/T3chn0w1thth4t/scripts-cheats/main/Execlogs_spoofer_2_syn.lua'),true))()
+
+--Method 3 Uses multiple executors and functions to hide itself. This will be the most secure if method 1 doesn't work on the script
+--loadstring(game:HttpGet(('https://raw.githubusercontent.com/T3chn0w1thth4t/scripts-cheats/main/Execlogs_spoofer_2_syn.lua'),true))()
+
+
+
+PUT THE SCRIPT YOU WANT TO SPOOF HERE AT THIS LINE
